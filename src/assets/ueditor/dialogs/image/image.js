@@ -859,7 +859,7 @@
             if(!_this.listEnd && !this.isLoadingData) {
                 this.isLoadingData = true;
                 var url = editor.getActionUrl(editor.getOpt('imageManagerActionName')),
-                    isJsonp = utils.isCrossDomainUrl(url);
+                    isJsonp = editor.getOpt('isJsonp') && utils.isCrossDomainUrl(url);
                 ajax.request(url, {
                     'timeout': 100000,
                     'dataType': isJsonp ? 'jsonp':'',
