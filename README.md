@@ -16,6 +16,7 @@ Angular2.x for Baidu UEditor（[UMeditor](https://github.com/cipchk/ngx-umeditor
 + 支持语言切换
 + 支持ueditor实例对象直接访问。
 + 支持二次开发。
++ 添加了一个配置，可以设置在跨域的时候是否使用Jsonp
 
 ## 使用
 
